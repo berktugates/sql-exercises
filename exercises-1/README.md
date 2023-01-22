@@ -1,5 +1,5 @@
-#SQL Exercises
-###The following query scenarios were performed on the dvdrental database.
+# SQL Exercises
+### The following query scenarios were performed on the dvdrental database.
 
 1) Sort the data in the title and description columns in the movie table.
 ```
@@ -35,7 +35,7 @@ WHERE length < 50 AND (rental_rate != 2.99 OR 4.99);
 ```
 <br>
 
-###PostgreSQL Installation Steps
+### PostgreSQL Installation Steps
 ----
 [Click here!](https://www.postgresql.org/download/)
 
