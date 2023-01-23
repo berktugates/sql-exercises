@@ -1,5 +1,5 @@
-#SQL Exercises 2
-###The following query scenarios were performed on the dvdrental database.
+# SQL Exercises 2
+### The following query scenarios were performed on the dvdrental database.
 
 1) Sort the data in all columns in the movie table provided that the value of replacement cost is greater than 12.99, equal and less than 16.99.
 ```
