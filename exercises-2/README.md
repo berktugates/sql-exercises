@@ -23,7 +23,7 @@ WHERE rental_rate IN (0.99,2.99,4.99) AND replacement_cost IN (12.99,15.99,28.99
 
 <br>
 
-###PostgreSQL Installation Steps
+### PostgreSQL Installation Steps
 ----
 [Click here!](https://www.postgresql.org/download/)
 
