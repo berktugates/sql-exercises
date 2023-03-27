@@ -4,7 +4,7 @@
 1) Sort the data in all columns in the movie table provided that the value of replacement cost is greater than 12.99, equal and less than 16.99.
 ```
 SELECT * FROM film
-WHERE replacement_cost BETWEEN 12.99 AND 16.99;
+WHERE replacement_cost BETWEEN 12.99 AND 16.99 AND replacement_cost!=16.99;
 ```
 
 2) Sort the data in the first_name and last_name columns in the actor table provided that first_name is 'Penelope' or 'Nick' or 'Ed'.
