@@ -2,7 +2,7 @@
 ### The following query scenarios were performed on the dvdrental database.
 
 1) Let's create a table in your test database with employee name column information id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100).
-```
+```sql
 CREATE TABLE employee (
 	id INTEGER PRIMARY KEY,
 	name VARCHAR(50) NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE employee (
 
 2) Let's add 50 pieces of data to the employee table we created using the 'Mockaroo' service.
 
-```
+```sql
 insert into employee (name, email, birthday) values ('Marlo', 'msieghart0@fda.gov', '2015-05-15');
 insert into employee (name, email, birthday) values ('Durand', 'dapplegarth1@example.com', '2005-07-01');
 insert into employee (name, email, birthday) values ('Maurita', 'mjoynt2@usda.gov', '2006-12-18');
@@ -68,7 +68,7 @@ insert into employee (name, email, birthday) values ('Prentiss', 'phandes1d@oper
 
 3) Let's do 4 UPDATE operations that will update the other columns according to each of the columns.
 
-```
+```sql
 UPDATE employee
 	SET name = 'berktuğ'
    WHERE id = 5;	
@@ -89,7 +89,7 @@ UPDATE employee
 
 4) Let's do 3 DELETE operations that will delete the relevant row according to each of the columns.
 
-```
+```sql
 DELETE FROM employee
    WHERE id = 6;
 

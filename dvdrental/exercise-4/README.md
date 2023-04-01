@@ -2,33 +2,33 @@
 ### The following query scenarios were performed on the dvdrental database.
 
 1) Sort the different values ​​in the replacement_cost column in the movie table.
-```
+```sql
 SELECT DISTINCT replacement_cost FROM film;
 ```
 
 2) How many different data are there in the replacement_cost column in the movie table?
 
-```
+```sql
 SELECT COUNT (DISTINCT replacement_cost) FROM film;
 ```
 
 3) How many of the movie titles in the movie table start with the character T and at the same time the rating is equal to 'G'?
 
-```
+```sql
 SELECT COUNT (*) FROM film
 WHERE title LIKE 'T%' AND rating = G;
 ```
 
 4) How many of the country names (country) in the country table consist of 5 characters?
 
-```
+```sql
 SELECT COUNT (*) FROM country
 WHERE country LIKE '_____';
 ```
 
 5) city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
-```
+```sql
 SELECT COUNT (*) FROM city
 WHERE city ILIKE '%R';
 ```
